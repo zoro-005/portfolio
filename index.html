@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Arya - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="particles"></canvas>
+  <button id="theme-toggle" aria-label="Toggle theme">
+    <svg viewBox="0 0 32 32">
+      <path id="theme-icon-path" d="M15 2.5a.625.625 0 0 0-.625.625v2.5a.625.625 0 0 0 1.25 0v-2.5A.625.625 0 0 0 15 2.5zm-8.25 2.875a.625.625 0 0 0-.4375 1.0625l1.75 1.75a.625.625 0 0 0 .875-.875l-1.75-1.75a.625.625 0 0 0-.4375-.1875zm15.5 0a.625.625 0 0 0-.4375.1875l-1.75 1.75a.625.625 0 0 0 .875.875l1.75-1.75a.625.625 0 0 0 0-.875.625.625 0 0 0-.4375-.1875zM15 7.5a7.5 7.5 0 1 0 0 15 7.5 7.5 0 0 0 0-15zM2.5 15a.625.625 0 0 0 0 1.25h2.5a.625.625 0 0 0 0-1.25zm25 0a.625.625 0 0 0 0 1.25h2.5a.625.625 0 0 0 0-1.25zm-6.875 7.75a.625.625 0 0 0-.4375.1875l-1.75 1.75a.625.625 0 0 0 .875.875l1.75-1.75a.625.625 0 0 0 0-.875.625.625 0 0 0-.4375-.1875zm-10.25 0a.625.625 0 0 0-.4375.1875l-1.75 1.75a.625.625 0 0 0 .875.875l1.75-1.75a.625.625 0 0 0 0-.875.625.625 0 0 0-.4375-.1875zm6.875 6.875A.625.625 0 0 0 14.375 30v2.5a.625.625 0 0 0 1.25 0v-2.5a.625.625 0 0 0-.625-.625z"></path>
+    </svg>
+  </button>
+  <main>
+    <section id="about">
+      <h2>Hey There ! </h2>
+      <p>I’m Dev Arya, a Computer Science student who’s all about bringing ideas to life with code. As a Full-Stack Developer, I create slick, user-friendly web apps that make an impact!</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <a href="https://github.com/zoro-005/Amazon-clone" class="project-card" style="--i: 0;">
+          <h3>Amazon Clone</h3>
+          <p>A responsive e-commerce website mimicking Amazon's core features, built with HTML, CSS, and JavaScript.</p>
+        </a>
+        <a href="https://github.com/zoro-005/NGO-website" class="project-card" style="--i: 1;">
+          <h3>NGO Website</h3>
+          <p>A live website for an NGO to promote its cause and collect donations, built with Django and Bootstrap.</p>
+        </a>
+        <a href="https://github.com/zoro-005/chat-app" class="project-card" style="--i: 2;">
+          <h3>Chat App</h3>
+          <p>A real-time chat application with user authentication, built with JavaScript and MongoDB.</p>
+        </a>
+        <a href="https://github.com/zoro-005/fake-news-detector" class="project-card" style="--i: 3;">
+          <h3>Fake News Detector</h3>
+          <p>A basic tool to classify news articles using Python and machine learning techniques.</p>
+        </a>
+        <a href="https://github.com/zoro-005/weather-detector" class="project-card" style="--i: 4;">
+          <h3>Weather Detector</h3>
+          <p>A weather forecasting app that fetches real-time data using APIs, built with JavaScript.</p>
+        </a>
+        <a href="https://github.com/zoro-005/blog-website-django" class="project-card" style="--i: 5;">
+          <h3>Blog Website</h3>
+          <p>A dynamic blog platform with CRUD functionality, built using Django and SQL.</p>
+        </a>
+        <a href="https://github.com/zoro-005/youtube-homepage" class="project-card" style="--i: 6;">
+          <h3>YouTube Clone</h3>
+          <p>A video streaming platform clone with a responsive UI, built with HTML, CSS, and JavaScript.</p>
+        </a>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill-card" style="--i: 0;">
+          <h4>C</h4>
+          <p>Proficient in writing efficient, low-level code for system programming.</p>
+        </div>
+        <div class="skill-card" style="--i: 1;">
+          <h4>Python</h4>
+          <p>Experienced in building web apps and data-driven solutions with Django and ML libraries.</p>
+        </div>
+        <div class="skill-card" style="--i: 2;">
+          <h4>JavaScript</h4>
+          <p>Skilled in creating interactive frontends and real-time applications.</p>
+        </div>
+        <div class="skill-card" style="--i: 3;">
+          <h4>HTML</h4>
+          <p>Expert in structuring responsive design and accessibility for web content.</p>
+        </div>
+        <div class="skill-card" style="--i: 4;">
+          <h4>CSS</h4>
+          <p>Skilled in designing modern, user-friendly interfaces with clean styling.</p>
+        </div>
+        <div class="skill-card" style="--i: 5;">
+          <h4>Django</h4>
+          <p>Experienced in building dynamic, secure applications with Python’s Django framework.</p>
+        </div>
+        <div class="skill-card" style="--i: 6;">
+          <h4>SQL</h4>
+          <p>Experienced in designing and querying relational databases.</p>
+        </div>
+        <div class="skill-card" style="--i: 7;">
+          <h4>MongoDB</h4>
+          <p>Skilled in managing NoSQL databases for scalable applications.</p>
+        </div>
+        <div class="skill-card" style="--i: 8;">
+          <h4>GitHub</h4>
+          <p>Experienced in version control and collaborative development workflows.</p>
+        </div>
+        <!-- <div class="skill-card" style="--i: 9;">
+          <h4>Hindi Communication</h4>
+          <p>Fluent in professional and casual communication in Hindi.</p>
+        </div>
+        <div class="skill-card" style="--i: 10;">
+          <h4>English Communication</h4>
+          <p>Strong verbal and written skills in English.</p>
+        </div> -->
+      </div>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <div class="education-card">
+        <h3>B.Tech in Computer Science and Engineering</h3>
+        <p>Meerut Institute of Engineering and Technology, 2022 - 2026</p>
+        <p>Relevant Coursework: Data Structures, Algorithms, Web Development, Database Systems, Machine Learning.</p>
+      </div>
+      <div class="education-card">
+        <h3>12th Grade</h3>
+        <p>Kendriya Vidyalaya Dogra Lines Meerut Cantt, 2022</p>
+        <p>Focused on Physics, Chemistry, and Mathematics, building a strong foundation for engineering studies.</p>
+      </div>
+      <div class="education-card">
+        <h3>10th Grade</h3>
+        <p>Kendriya Vidyalaya Dogra Lines Meerut Cantt, 2020</p>
+        <p>Excelled in Science and Mathematics, laying the groundwork for a technical career.</p>
+      </div>
+    </section>
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <p>Currently pursuing certifications to enhance my skills. Stay tuned for updates!</p>
+    </section>
+  </main>
+  <footer>
+    <div class="social-links">
+      <a href="mailto:tdevarya@gmail.com">
+        <svg viewBox="0 0 24 24">
+          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8l8 5 8-5v10H4z"/>
+        </svg>
+        tdevarya@gmail.com
+      </a>
+      <a href="https://github.com/zoro-005">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.7-.2.7-.5v-1.7c-2.9.6-3.5-1.4-3.5-1.4-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.4-.3-4.9-1.2-4.9-5.3 0-1.2.4-2.2 1.1-2.9-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 2.9 1.1a10.2 10.2 0 0 1 5.3 0c2-1.4 2.9-1.1 2.9-1.1.6 1.5.2 2.6.1 2.9.7.7 1.1 1.7 1.1 2.9 0 4.1-2.5 5-4.9 5.3.4.3.7.9.7 1.8v2.7c0 .3.2.6.7.5A10 10 0 0 0 12 2z"></path>
+        </svg>
+        zoro-005
+      </a>
+      <a href="https://x.com/thakurdevarya">
+        <svg viewBox="0 0 24 24">
+          <path d="M17.53 3h3.92l-7.69 8.79L22.5 21h-6.6l-5.17-6.3L4.8 21H.86l8.1-9.27L1.5 3h6.7l4.62 5.62L17.53 3z"/>
+        </svg>
+        @thakurdevarya
+      </a>
+    </div>
+    <button id="back-to-top" aria-label="Back to top">
+      <svg viewBox="0 0 24 58">
+        <path d="M12 10V48M6 16L12 10L18 16"></path>
+      </svg>
+    </button>
+  </footer>
+  <script src="flubber.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
